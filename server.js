@@ -7,7 +7,7 @@ const express = require('express');
 const app = express();
 
 // routes
-app.use('/', express.static('public', { index: 'index.html' }));
+app.use('/', express.static('public', { index: '/distribution/index.html' }));
 
 // start server
 const port = process.env.PORT || 3000;
