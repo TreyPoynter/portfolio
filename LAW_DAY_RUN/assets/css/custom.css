@@ -1,0 +1,30 @@
+.slider-bg1 {
+  background-image: url('/assets/lawdayrun_stuff/Start.gif');
+}
+/* until i find a better image
+.slider-bg2 {
+  background-image: url('/assets/lawdayrun_stuff/5k\ run.jpg');
+}
+*/
+
+.hero-header-color {
+  color: #ffcb01 !important;
+}
+.hero-info-color {
+  color: #fff !important;
+}
+.hero-btn {
+  background-color: #009901 !important;
+}
+
+.footer-social li .linc {
+  background: rgb(212, 212, 212);
+}
+
+.fa-solid, .fa-handshake-simple{
+  color: #000;
+}
+
+.text-gold{
+  color: #f7d346 !important;
+}
