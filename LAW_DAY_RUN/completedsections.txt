@@ -1,5 +1,8 @@
 Completed Pages
 
+maps.html
+photos.html
+raceinfo.html
 index.html
 sponsors.html
 contact.html

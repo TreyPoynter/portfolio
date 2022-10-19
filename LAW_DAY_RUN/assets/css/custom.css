@@ -24,6 +24,11 @@
   background-image: url('/assets/lawdayrun_stuff/LDR3.jpg');
   box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
 }
+.slider-bg7 {
+  background-image: url('/assets/lawdayrun_stuff/IMGP1747.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(65, 56, 56, 0.548);
+  background-position: top;
+}
 
 .hero-header-color {
   color: #ffcb01 !important;
