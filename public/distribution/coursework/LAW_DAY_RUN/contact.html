@@ -28,8 +28,8 @@
 <body>
     <header>
         <div class="header-area header-transparent">
-            <div class="main-header ">
-                <div class="header-bottom  header-sticky  bg-dark">
+            <div class="main-header">
+                <div class="header-bottom  header-sticky bg-dark">
                     <div class="container-fluid">
                         <div class="d-flex align-items-center justify-content-between flex-wrap position-relative">
                             <!-- Logo -->
@@ -44,11 +44,11 @@
                                             <li><a href="index.html">Home</a></li>
                                             <li><a href="raceinfo.html">Race Info</a>
                                                 <ul class="submenu">
-                                                    <li><a href="https://lawday5k.itsyourrace.com/register/">Register</a></li>
+                                                    <li><a target="_blank" href="https://lawday5k.itsyourrace.com/register/">Register</a></li>
                                                     <li><a href="./raceinfo/photos.html">Photos</a></li>
                                                     <li><a href="./raceinfo/maps.html">Maps</a></li>
-                                                    <li><a class="text-light" target="_blank" href="https://toolensrunningstart.com/wp-content/uploads/Past_Events_PDF/2022/Law-Day-5K-2022-.pdf">2022 Race Results</a></li>
-                                                    <li><a class="text-light" target="_blank" href="http://bellevillerunningclub.com/training/couch-to-5k-training/">Coach to 5k Training</a></li>
+                                                    <li><a target="_blank" href="https://toolensrunningstart.com/wp-content/uploads/Past_Events_PDF/2022/Law-Day-5K-2022-.pdf">2022 Race Results</a></li>
+                                                    <li><a target="_blank" href="http://bellevillerunningclub.com/training/couch-to-5k-training/">Coach to 5k Training</a></li>
                                                 </ul>
                                             </li>
                                             <li><a class="active" href="contact.html">Contact Us</a></li>
@@ -71,11 +71,11 @@
                                                 <ul>
                                                     <li><a class="text-light" href="./raceinfo/photos.html">Photos</a></li>
                                                     <li><a class="text-light" href="./raceinfo/maps.html">Maps</a></li>
-                                                    <li><a href="https://toolensrunningstart.com/wp-content/uploads/Past_Events_PDF/2022/Law-Day-5K-2022-.pdf">2022 Race Results</a></li>
-                                                    <li><a href="http://bellevillerunningclub.com/training/couch-to-5k-training/">Coach to 5k Training</a></li>
+                                                    <li><a class="text-light" target="_blank" href="https://toolensrunningstart.com/wp-content/uploads/Past_Events_PDF/2022/Law-Day-5K-2022-.pdf">2022 Race Results</a></li>
+                                                    <li><a class="text-light" target="_blank" href="http://bellevillerunningclub.com/training/couch-to-5k-training/">Coach to 5k Training</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a class="text-light" href="https://lawday5k.itsyourrace.com/register/">Register</a></li>
+                                            <li><a class="text-light" target="_blank" href="https://lawday5k.itsyourrace.com/register/">Register</a></li>
                                             <li><a class="active" href="contact.html">Contact Us</a></li>
                                             <li><a class="text-light" href="sponsors.html">Our Sponsors</a></li>
                                             <li><a class="text-light" href="volunteer.html">Volunteer</a></li>
@@ -98,6 +98,8 @@
                         <div class="col-xl-5 col-lg-6 col-md-8">
                             <div class="hero-caption hero-caption2">
                                 <h2>Contact Us</h2>
+                                <a class="text-light fs-5" href="mailto:EvanGudmestad@gmail.com">Email : EvanGudmestad@gmail.com</a><br/>
+                                <a class="text-light fs-5" href="geo:38.51381144100342, -89.98183652883583">Address : 123 E.Main St. Belleville IL 62220</a>
                             </div>
                         </div>
                     </div>
@@ -107,29 +109,18 @@
         <!-- Hero Area End-->
         <!--Form Start-->
         <div class="container">
-            <div class="row">
-                <div class="col-md-7">
-                    <h3 class="fs-1">Information</h3>
-                    <div class="d-flex align-items-center fs-2">
-                        <a class="text-dark text-break" href="mailto:EvanGudmestad@gmail.com">Email : EvanGudmestad@gmail.com</a>
+            <div class="cd-flex justify-content-center">
+                <form action="https://formsubmit.co/EvanGudmestad@gmail.com" method="post">
+                    <label class="form-label" for="name">Enter Your Name :</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Name" required/>
+                    <label class="form-label" for="email">Enter Your Email :</label>
+                    <input class="form-control" type="text" name="email" id="email" placeholder="Email Address" required/>
+                    <label class="form-label" for="message">Type your Message :</label>
+                    <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                    <div class="d-flex justify-content-center mt-2">
+                        <button class="btn btn-lg w-25" type="submit">Send</button>
                     </div>
-                    <div class="d-flex align-items-center fs-2">
-                        <a class="text-dark" href="geo:38.51381144100342, -89.98183652883583">Address : 123 E.Main St. Belleville IL 62220</a>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <form action="https://formsubmit.co/buttermaster46@gmail.com" method="post">
-                        <label class="form-label" for="name">Enter Your Name :</label>
-                        <input class="form-control" type="text" name="name" id="name" placeholder="Name" required/>
-                        <label class="form-label" for="email">Enter Your Email :</label>
-                        <input class="form-control" type="text" name="email" id="email" placeholder="Email Address" required/>
-                        <label class="form-label" for="message">Type your Message :</label>
-                        <textarea class="form-control" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                        <div class="d-flex justify-content-center mt-2">
-                            <button class="btn btn-lg w-50" type="submit">Send</button>
-                        </div>
-                    </form>
-                </div>
+                </form>
             </div>
         </div>
         <!--Form End-->
@@ -145,7 +136,7 @@
                                     <!-- logo -->
                                     <div class="footer-logo mb-25 d-flex justify-content-around">
                                         <a href="index.html"><img src="./assets/lawdayrun_stuff/NewLDRLogo.png" width="75" alt="LDR Logo"/></a>
-                                        <a href="https://lincolnlegal.org/"><img src="./assets/lawdayrun_stuff/landoflincoln-logo.png" width="150" alt=""></a>
+                                        <a href="https://lincolnlegal.org/" target="_blank"><img src="./assets/lawdayrun_stuff/landoflincoln-logo.png" width="150" alt=""></a>
                                     </div>
                                     <div class="footer-tittle">
                                         <div class="footer-pera">
@@ -155,7 +146,7 @@
                                     <!-- social -->
                                     <ul class="footer-social">
                                         <li><a class="fb" href="https://www.facebook.com/LawDayRun/?ref=page_internal" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                                        <li><a class="linc" href="https://lincolnlegal.org/" target="_blank"><i class="fa-solid fa-handshake-simple"></i></a></li>
+                                        <li><a class="linc" target="_blank" href="https://lincolnlegal.org/"><i class="fa-solid fa-handshake-simple"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
