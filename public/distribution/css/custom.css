@@ -12,7 +12,7 @@
 }
 
 #hero{
-    background-image: url(/distribution/img/headshot.jpg);
+    background-image: url(../img/headshot.jpg);
     height: 100%;
     width: 100vw;
 }
